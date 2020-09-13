@@ -1,8 +1,20 @@
 {
     "name": "vscode-luau",
-    "displayName": "vscode-luau-grammar",
+    "displayName": "Roblox Lua/Luau Highlighting",
     "description": "Provides highlighting (and nothing else!) for Roblox Lua/Luau",
+    "keywords": ["Luau", "Roblox", "Grammar"],
+    
     "version": "0.0.1",
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dekkonot/vscode-lua"
+    },
+    "bugs": {
+        "url": "https://github.com/dekkonot/vscode-lua/issues"
+    },
+    "license": "MIT",
+
     "engines": {
         "vscode": "^1.48.0"
     },

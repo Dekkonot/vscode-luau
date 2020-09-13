@@ -1,0 +1,25 @@
+{
+    "name": "luau",
+    "displayName": "vscode-luau-grammar",
+    "description": "Provides highlighting (and nothing else!) for Roblox Lua/Luau",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "luau",
+            "aliases": ["Roblox Lua/Luau", "Luau"],
+            "extensions": [".lua",".luau",".rbxs"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "luau",
+            "scopeName": "source.luau",
+            "path": "./syntaxes/luau.tmLanguage.json"
+        }]
+    }
+}

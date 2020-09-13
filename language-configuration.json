@@ -26,5 +26,15 @@
         ["(", ")"],
         ["\"", "\""],
         ["'", "'"],
-    ]
+    ],
+
+    "autoCloseBefore": "}])",
+
+    "folding": {
+        "markers": {
+            "start": "\\b(function|do|then|else|repeat)\\b|(\\{|\\()\\s*$",
+            "end": "\\b(end|until|elseif|else)\\b|(\\}|\\))"
+        },
+        "offSide": false
+    }
 }

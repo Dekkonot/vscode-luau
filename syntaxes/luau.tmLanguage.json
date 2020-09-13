@@ -48,6 +48,10 @@
 					"name": "keyword.operator.type.luau"
 				},
 				{
+					"match": "(?<![:>.]\\s*)\\b_\\b",
+					"name": "variable.parameter.luau"
+				},
+				{
 					"match": "(?<![:>.]\\s*)\\b([A-Z_][A-Z0-9_]*)\\b",
 					"name": "variable.other.constant.luau"
 				},
@@ -76,6 +80,10 @@
 					"name": "keyword.operator.type.luau"
 				},
 				{
+					"match": "(?<![:>.]\\s*)\\b_\\b",
+					"name": "variable.parameter.luau"
+				},
+				{
 					"match": "(?<![:>.]\\s*)\\b([A-Z_][A-Z0-9_]*)\\b",
 					"name": "variable.other.constant.luau"
 				},
@@ -99,6 +107,10 @@
 						{
 							"match": ":",
 							"name": "keyword.operator.type.luau"
+						},
+						{
+							"match": "(?<![:>.]\\s*)\\b_\\b",
+							"name": "variable.parameter.luau"
 						},
 						{
 							"match": "(?<![:>.]\\s*)\\b([A-Z_][A-Z0-9_]*)\\b",

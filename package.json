@@ -12,7 +12,7 @@
     "contributes": {
         "languages": [{
             "id": "lua",
-            "aliases": ["Roblox Lua/Luau", "Luau"],
+            "aliases": ["Roblox Lua", "Luau"],
             "extensions": [".lua",".luau",".rbxs"],
             "configuration": "./language-configuration.json"
         }],

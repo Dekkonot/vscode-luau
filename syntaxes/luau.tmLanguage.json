@@ -424,7 +424,7 @@
 					},
 					"patterns": [
 						{
-							"include": "#type_literal"
+							"include": "source.luau"
 						}
 					]
 				},
@@ -450,6 +450,10 @@
 						}
 					],
 					"contentName": "meta.parameter.type.variable"
+				},
+				{
+					"match": "\\b(nil|string|number|boolean|thread|userdata|any)\\b",
+					"name": "support.type.primitive.luau"
 				},
 				{
 					"match": "\\b([a-zA-Z]\\w*)\\b",

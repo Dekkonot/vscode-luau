@@ -379,20 +379,28 @@
 		"comments": {
 			"patterns": [
 				{
+					"begin": "--\\[(=*)\\[",
+					"end": "\\]\\1\\]",
+					"name": "comment.block.luau"
+				},
+				{
 					"begin": "--",
-					"end": "\\n",
+					"end": "$",
 					"name": "comment.line.double-dash.luau",
 					"patterns": [
 						{
 							"match": "@\\w+",
 							"name": "storage.type.class.luau"
+						},
+						{
+							"match": "!(strict|nonstrict|nocheck)\\s*$",
+							"name": "markup.bold.luau"
+						},
+						{
+							"match": "!nolint(?:\\s+[a-zA-Z_]\\w*)\\s*$",
+							"name": "markup.bold.luau"
 						}
 					]
-				},
-				{
-					"begin": "--\\[(=*)\\[",
-					"end": "\\]\\1\\]",
-					"name": "comment.block.luau"
 				}
 			]
 		},

@@ -8,13 +8,13 @@
 
     "repository": {
         "type": "git",
-        "url": "https://github.com/dekkonot/vscode-lua"
+        "url": "https://github.com/Dekkonot/vscode-luau"
     },
     "bugs": {
-        "url": "https://github.com/dekkonot/vscode-lua/issues"
+        "url": "https://github.com/Dekkonot/vscode-luau/issues"
     },
     "license": "MIT",
-    "publisher": "dekkonot",
+    "publisher": "Dekkonot",
 
     "engines": {
         "vscode": "^1.48.0"

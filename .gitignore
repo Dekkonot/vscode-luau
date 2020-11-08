@@ -1,2 +1,4 @@
 test.lua
 vsc-extension-quickstart.md
+
+*.vsix

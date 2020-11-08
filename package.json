@@ -2,10 +2,12 @@
     "name": "vscode-luau",
     "displayName": "Roblox Lua/Luau Highlighting",
     "description": "Provides highlighting (and nothing else!) for Roblox Lua/Luau",
-    "keywords": ["Luau", "Roblox", "Grammar"],
-    
-    "version": "1.0.0",
-
+    "keywords": [
+        "Luau",
+        "Roblox",
+        "Grammar"
+    ],
+    "version": "2.0.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/Dekkonot/vscode-luau"
@@ -15,7 +17,6 @@
     },
     "license": "MIT",
     "publisher": "Dekkonot",
-
     "engines": {
         "vscode": "^1.48.0"
     },
@@ -23,16 +24,27 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "lua",
-            "aliases": ["Roblox Lua", "Luau"],
-            "extensions": [".lua",".luau",".rbxs"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "lua",
-            "scopeName": "source.luau",
-            "path": "./syntaxes/luau.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "lua",
+                "aliases": [
+                    "Roblox Lua",
+                    "Luau"
+                ],
+                "extensions": [
+                    ".lua",
+                    ".luau",
+                    ".rbxs"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "lua",
+                "scopeName": "source.lua",
+                "path": "./syntaxes/lua.tmLanguage.json"
+            }
+        ]
     }
 }

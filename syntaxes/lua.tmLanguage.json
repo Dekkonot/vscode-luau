@@ -241,7 +241,7 @@
 					}
 				},
 				{
-					"match": "\\b(__add|__call|__concat|__div|__eq|__index|__le|__len|__lt|__metatable|__mod|__mode|__mul|__newindex|__pow|__sub|__tostring|__unm)\\b",
+					"match": "\\b(__add|__call|__concat|__div|__eq|__index|__le|__len|__lt|__metatable|__mod|__mode|__mul|__newindex|__pow|__sub|__tostring|__unm|__iter)\\b",
 					"name": "variable.language.metamethod.lua"
 				},
 				{

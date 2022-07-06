@@ -213,11 +213,11 @@
 				},
 
 				{
-					"match":"\\b(bit32\\.(?:arshift|band|bnot|bor|btest|bxor|countlz|countrz|extract|lrotate|lshift|replace|rrotate|rshift)|coroutine\\.(?:close|create|isyieldable|resume|running|status|wrap|yield)|debug\\.(?:dumpheap|info|loadmodule|profilebegin|profileend|resetmemorycategory|setmemorycategory|traceback)|math\\.(?:abs|acos|asin|atan|atan2|ceil|clamp|cos|cosh|deg|exp|floor|fmod|frexp|ldexp|log|log10|max|min|modf|noise|pow|rad|random|randomseed|round|sign|sin|sinh|sqrt|tan|tanh)|os\\.(?:clock|date|difftime|time)|string\\.(?:byte|char|find|format|gmatch|gsub|len|lower|match|pack|packsize|rep|reverse|split|sub|unpack|upper)|table\\.(?:clear|clone|concat|create|find|foreach|foreachi|freeze|getn|insert|isfrozen|maxn|move|pack|remove|sort|unpack)|utf8\\.(?:char|codepoint|codes|graphemes|len|nfcnormalize|nfdnormalize|offset)|task\\.(?:cancel|defer|delay|desynchronize|spawn|synchronize|wait))\\b",
+					"match":"\\b(bit32\\.(?:arshift|band|bnot|bor|btest|bxor|countlz|countrz|extract|lrotate|lshift|replace|rrotate|rshift)|coroutine\\.(?:close|create|isyieldable|resume|running|status|wrap|yield)|debug\\.(?:dumpheap|info|loadmodule|profilebegin|profileend|resetmemorycategory|setmemorycategory|traceback)|math\\.(?:abs|acos|asin|atan|atan2|ceil|clamp|cos|cosh|deg|exp|floor|fmod|frexp|ldexp|log|log10|max|min|modf|noise|pow|rad|random|randomseed|round|sign|sin|sinh|sqrt|tan|tanh)|os\\.(?:clock|date|difftime|time)|string\\.(?:byte|char|find|format|gmatch|gsub|len|lower|match|pack|packsize|rep|reverse|split|sub|unpack|upper)|table\\.(?:clear|clone|concat|create|find|foreach|foreachi|freeze|getn|insert|isfrozen|maxn|move|pack|remove|sort|unpack)|task\\.(?:cancel|defer|delay|desynchronize|spawn|synchronize|wait)|utf8\\.(?:char|codepoint|codes|graphemes|len|nfcnormalize|nfdnormalize|offset))\\b",
 					"name": "support.function.lua"
 				},
 				{
-					"match": "\\b(bit32|coroutine|debug|math|math\\.huge|math\\.pi|os|string|table|utf8|utf8\\.charpattern|task)\\b",
+					"match": "\\b(bit32|coroutine|debug|math|math\\.huge|math\\.pi|os|string|table|task|utf8|utf8\\.charpattern)\\b",
 					"name": "support.constant.lua"
 				}
 			]
